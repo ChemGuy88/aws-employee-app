@@ -87,7 +87,7 @@ def home():
         return render_template_string("""        
         {% extends "main.html" %}
         {% block head %}
-        Employee Directory - Home
+        Employee Directory - Home 1
         <a class="btn btn-primary float-right" href="{{ url_for('add') }}">Add</a>
         {% endblock %}
         """)
@@ -105,7 +105,7 @@ def home():
     return render_template_string("""
         {% extends "main.html" %}
         {% block head %}
-        Employee Directory - Home
+        Employee Directory - Home 2
         <a class="btn btn-primary float-right" href="{{ url_for('add') }}">Add</a>
         {% endblock %}
         {% block body %}
